@@ -1,0 +1,22 @@
+{
+  "name": "sql-proto",
+  "version": "1.0.0",
+  "description": "create table proto( id INT NOT NULL AUTO_INCREMENT, title VARCHAR(100) NOT NULL, author VARCHAR(40) NOT NULL, age INT NOT NULL, created_at DATE, updated_at DATE, PRIMARY KEY ( id ) );",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escusado/sql-proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escusado/sql-proto/issues"
+  },
+  "homepage": "https://github.com/escusado/sql-proto#readme",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql"
+  }
+}
