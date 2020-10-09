@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/escusado/sql-proto#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql": "github:mysqljs/mysql"
   }
 }
