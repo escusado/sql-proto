@@ -1,12 +1,3 @@
-create table proto(
-id INT NOT NULL AUTO_INCREMENT,
-title VARCHAR(100) NOT NULL,
-author VARCHAR(40) NOT NULL,
-age INT NOT NULL,
-created_at DATE,
-updated_at DATE,
-PRIMARY KEY ( id )
-);
 
 get latest mysql image:
 
@@ -38,14 +29,14 @@ create table:
 
 ```
 create table proto(
-    ->    id INT NOT NULL AUTO_INCREMENT,
-    ->    title VARCHAR(100) NOT NULL,
-    ->    author VARCHAR(40) NOT NULL,
-    ->    age INT NOT NULL,
-    ->    created_at DATE,
-    ->    updated_at DATE,
-    ->    PRIMARY KEY ( id )
-    -> );
+        id INT NOT NULL AUTO_INCREMENT,
+        title VARCHAR(100) NOT NULL,
+        author VARCHAR(40) NOT NULL,
+        age INT NOT NULL,
+        created_at DATE,
+        updated_at DATE,
+        PRIMARY KEY ( id )
+     );
 ```
 
 create user
